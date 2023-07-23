@@ -1,0 +1,37 @@
+29.10.2019 Ansible Presentation by ko myo min zin
+
+Ansible Main Components
+- inventory
+- modules
+- plugins
+- playbook
+
+Ansible Usage
+- To reduce time for Daily IT task(system health check,system update and system patch)
+- Manage and Deploy multinodes by single task
+- To do system deployment and configuration from one compled playbook by unfamilar users without IT knowledge.
+
+Different between Ansible Engine and Ansible Tower
+- Ansible Engine is community version ( license free) and Tower is license version.
+- Tower has Dashboard to monitor quickly summary of entire system status.
+- Engine is only command line and Tower is Web UI environment.
+- Tower is more flexible for unfamiliar command line users.
+- Tower has role-base access control feature for system access.
+- Tower has Job scheduling function  
+- Tower can easily integrated with other supported media for notification like slack,Email,etc
+Note: not support Viber,Wechat and Whatsapp.
+- Ansible engine have modules that does not supported by redhat.
+- All ansible tower modules supported by redhat.
+
+Ansible License
+- license start for 100 managed nodes(bare metal,vm,network device,cloud instant)
+- three type of supported subsription licenses(basic,enterprise and premium)
+
+Ansible support all device supported ssh protocol and modules .
+Ansible run agentless.no need to install any software on managed node
+
+
+
+
+
+
